@@ -1,11 +1,12 @@
 [package]
-name = "receipt-registry"
-version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+name = "credential-registry"
 publish = false
+version = "0.1.0"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "lib"]
 
 [dependencies]
 soroban-sdk = { workspace = true }
